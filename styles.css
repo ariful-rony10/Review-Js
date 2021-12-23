@@ -1,0 +1,30 @@
+.title {
+  text-align: center;
+}
+.review {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid greenyellow;
+}
+.button-container,
+.random-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  border: none;
+  background-color: #fff;
+  color: #333;
+}
+#review-random-button {
+  border: 1px solid #333;
+  box-shadow: 2px 3px 2px 1px rgba(3, 3, 3, 0.2);
+}
